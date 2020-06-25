@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">XamPrep</string>
+    <string name="question_and_papers">Question and Papers</string>
+    <string name="sign_up">Sign In</string>
+    <string name="title_activity_year">Question Papers</string>
+    <string name="title_activity_semester">Semester</string>
+    <string name="title_activity_front">Modules</string>
+
+    <string name="title_activity_motivation">Motivation</string>
+
+    <string name="title_activity_refrence">Reference</string>
+    <string-array name="sem_array">
+        <item>Semester</item>
+        <item>SEM-1</item>
+        <item>SEM-2</item>
+        <item>SEM-3</item>
+        <item>SEM-4</item>
+        <item>SEM-5</item>
+        <item>SEM-6</item>
+    </string-array>
+    <string-array name="planets_array">
+        <item>Year</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+    </string-array>
+    <string name="mot_one">
+        <a href="https://addicted2success.com">1.Addicted 2 Success</a>
+    </string>
+    <string name="mot_two">
+        <a href="https://jamesclear.com">2.James Clear</a>
+    </string>
+    <string name="mot_thr">
+        <a href="https://tinybuddha.com">3.Tiny Buddha</a>
+    </string>
+    <string name="mot_fou">
+        <a href="https://motivationgrid.com">4.Motivational Grid</a>
+    </string>
+    <string name="mot_fiv">
+        <a href="https://stephenguise.com">5.Deep Existence</a>
+    </string>
+    <string name="title_activity_gpa">GPA Calculator</string>
+
+    <string name="scheduler">SCHEDULER</string>
+    <string name="notes">NOTES</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="cgpa">CGPA</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_semester">Add Subject</string>
+    <string name="sgpa">Grade Point</string>
+    <string name="credit">Credit</string>
+    <string name="semester">Subject</string>
+    <string name="calculate">Calculate</string>
+    <string name="note">Note</string>
+    <string name="ok">Ok</string>
+    <string name="tee">TEE</string>
+
+    <string name="programiz">
+        <a href="https://www.programiz.com/c-programming">Programiz.com</a>
+    </string>
+    <string name="ashok">
+        <a href="https://www.wattpad.com/amp/676854633">C Programming by Ashok N Kamthane.</a>
+    </string>
+    <string name="eee_site">
+        <a href="https://www.wattpad.com/amp/676854633">GeeksforGeeks.org</a>
+    </string>
+    <string name="eee_book">
+        <a href="http://bit.ly/2C1tEy8">Basic Electrical and electronics engineering.</a>
+    </string>
+    <string name="jain">
+        <a href="https://www.academia.edu/37796622/Engineering_Chemistry_by_Jain_and_Jain">1.Engineering Chemistry by Jain and Jain.</a>
+    </string>
+    <string name="ogp">
+        <a href="https://www.pdfdrive.com/engineering-chemistry-e33546326.html">2.Engineering Chemistry by OG Palanna.</a>
+    </string>
+    <string name="pb">
+        <a href="http://bookpdf.co.in/engineering-physics-pdf/">Engineering Physics by various Authors.</a>
+    </string>
+    <string name="calbook">
+        <a href="https://www.examsfreak.com/2017/10/higher-engineering-mathematics-e-book.html?m=1">Higher engineering mathematics by BV Ramana.</a>
+    </string>
+    <string name="engbook">
+        <a href="https://www.academia.edu/7846789/Download_Effective_Tech_Communication_M_Ashraf_Rizvi_Tata_McGraw-Hill_Education_2005">Effective Technical communication by Ashra Rizvi.</a>
+    </string>
+    <string name="egraph">
+        <a href="https://easyengineering.net/engineering-drawing-by-bhatt/">Engineering Drawing ND Bhatt.</a>
+    </string>
+    <string name="twcb">
+        <a href="https://www.academia.edu/7846789/Download_Effective_Tech_Communication_M_Ashraf_Rizvi_Tata_McGraw-Hill_Education_2005">Effective Technical writing by Ashra Rizvi.</a>
+    </string>
+    <string name="envb">
+        <a href="https://sites.google.com/site/readonlinebooks465555/download--pdf-environmental-science-by---g-tyler-miller--full-pages">EVS by G Tyler Miller Scott Spoolman.</a>
+    </string>
+    <string name="cpw1">
+        <a href="https://www.javatpoint.com/cpp-tutorial">1.JavaTpoint.com</a>
+    </string>
+    <string name="cpw2">
+        <a href="https://www.tutorialspoint.com/cplusplus/index.htm">2.TutorialsPoint.com</a>
+    </string>
+    <string name="cpb1">
+        <a href="https://b-ok.cc/book/2726201/7bd360">3.C++ by Paul M and Harvey Deitel.</a>
+    </string>
+    <string name="cpb2">
+        <a href="https://b-ok.cc/book/2290165/2b58c9">4.C++ by Bjarne Stroustrup.</a>
+    </string>
+    <string name="dldb">
+        <a href="https://b-ok.cc/book/2077456/f53988">Digital Logic Design by Morris Mano.</a>
+    </string>
+    <string name="ddeb1">
+        <a href="https://b-ok.cc/book/441394/024267">1.Advanced Engineering Mathematics by Erwin Kreyszig.</a>
+    </string>
+    <string name="ddeb2">
+        <a href="https://b-ok.cc/book/2352263/9368cb">2.Higher Engineering Mathematics BS Grewal.</a>
+    </string>
+    <string name="dmb1">
+        <a href="https://b-ok.cc/book/3674261/710c0f">1.Discrete Mathematics by Kenneth Rosen.</a>
+    </string>
+    <string name="dmb2">
+        <a href="https://b-ok.cc/book/3674261/710c0f">2.Schaum’s Outline of Discrete Mathematics.</a>
+    </string>
+</resources>

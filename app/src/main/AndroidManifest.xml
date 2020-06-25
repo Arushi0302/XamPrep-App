@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".gpa"></activity>
+        <activity android:name=".SchedulerActivity"></activity>
+        <activity android:name=".Models.NotesActivity"></activity>
+        <activity android:name=".NewScheduleActivity"></activity>
+        <activity android:name=".Models.CreateNoteActivity"></activity>
+        <activity android:name=".Models.NoteUpdateActivity"></activity>
+        <activity android:name=".ScheduleUpdateActivity"></activity>
+        <activity
+            android:name=".refrence"
+            android:label="@string/title_activity_refrence"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".motivation"
+            android:label="@string/title_activity_motivation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".front"
+            android:label="@string/title_activity_front"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Year"
+            android:label="@string/title_activity_year"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".sign_up" />
+        <activity android:name=".forget_password" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crush"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".refrence"
+    tools:showIn="@layout/activity_refrence">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:text="C Programming:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cprog"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/programiz"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cbook"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/ashok"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="100dp"
+                android:text="Electrical circuits and systems:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/eeeweb"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="125dp"
+                android:text="@string/eee_site"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/eeebook"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="150dp"
+                android:text="@string/eee_book"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="225dp"
+                android:text="Engineering Chemistry:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ecb1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="250dp"
+                android:text="@string/jain"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ecb2"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="275dp"
+                android:text="@string/ogp"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="325dp"
+                android:text="Engineering Physics:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/epb"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="350dp"
+                android:text="@string/pb"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="400dp"
+                android:text="Calculus and Laplace Transform:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:id="@+id/calb"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="425dp"
+                android:text="@string/calbook"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="500dp"
+                android:text="Communication for Technical Professionals:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:id="@+id/engb"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="555dp"
+                android:text="@string/engbook"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="625dp"
+                android:text="Engineering Graphics:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/enggrap"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="650dp"
+                android:text="@string/egraph"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="700dp"
+                android:text="Technical Writing and composition:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/twc"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="755dp"
+                android:text="@string/twcb"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="800dp"
+                android:text="Environmental Science:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/evs"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="825dp"
+                android:text="@string/envb"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="875dp"
+                android:text="C++:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/cpp"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="900dp"
+                android:text="@string/cpw1"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/cpp1"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="925dp"
+                android:text="@string/cpw2"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/cpp2"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="950dp"
+                android:text="@string/cpb1"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/cpp3"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="975dp"
+                android:text="@string/cpb2"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1025dp"
+                android:text="Digital Logic Design:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/dldw"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1050dp"
+                android:text="@string/dldb"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1100dp"
+                android:text="Differential and Difference Equations:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/ddw"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1155dp"
+                android:text="@string/ddeb1"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/ddw1"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1205dp"
+                android:text="@string/ddeb2"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1280dp"
+                android:text="Discrete Mathematics:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/dm"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1305dp"
+                android:text="@string/dmb1"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/dm1"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1355dp"
+                android:text="@string/dmb2"
+                android:textColorLink="#1462E0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

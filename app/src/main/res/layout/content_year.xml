@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blur1"
+    tools:context=".Year"
+    tools:showIn="@layout/activity_year">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Select the Year"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <Spinner
+            android:id="@+id/planets_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Select the Semester"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <Spinner
+            android:id="@+id/sem_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Select the Examination type:"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rad_tee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/tee"
+                android:textSize="25dp"/>
+
+            <RadioButton
+                android:id="@+id/rad_cat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="CAT-I"
+                android:textSize="25dp"/>
+
+            <RadioButton
+                android:id="@+id/rad_cat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="CAT-II"
+                android:textSize="25dp"/>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_shape"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:textColor="#070707"
+        android:textSize="20sp" />
+</LinearLayout>
